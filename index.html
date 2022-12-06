@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js" defer></script>
+    <title>Game App</title>
+</head>
+<body>
+
+
+<div class="game">
+    <div class="img"></div>
+    <div class="enjoy">enjoy us</div>
+    <button class="start" onclick="Start()">start</button>
+</div>
+
+
+  <div class="game toggle" id="game2">
+    <button class="btnLevel" >chOose lEvEl : </button>
+    <div class="collection-levels">
+      <div class="star">
+        <di  style='font-size:20px;'> &#11088 <span style='font-size:40px;'> &#11088 </span> &#11088</di>
+        <button class="btnLevels">1</button>
+      </div>
+      <div class="star">
+        <div  style='font-size:20px;'> &#11088 <span style='font-size:40px;'> &#11088 </span> &#11088</div>
+        <button class="btnLevels">2</button>
+      </div>
+      <div class="star">
+        <div  style='font-size:20px;'> &#11088 <span style='font-size:40px;'> &#11088 </span> &#11088</div>
+        <button class="btnLevels">3</button>
+      </div>
+      
+    </div>
+  </div> 
+
+   
+<div class="toggle game" id="game3">
+    <p class="pTimer"></p>
+    <p class="p"></p>
+    <input type="number" class="input">
+    <p class="jooOn"></p>
+    <p class="p" id="finalResult"></p>
+    <button class="reset" onclick="Reset()">again</button>
+</div>
+    
+</body>
+</html>

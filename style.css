@@ -1,0 +1,158 @@
+
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
+.img {
+    background-image:  linear-gradient(to bottom, #dfa5a532, #abeca534), url('./images.jfif');
+    object-fit : cover;
+    height: 50vh;
+    width: 100vw;
+}
+.enjoy {
+    width: 350px;
+    height: 70px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color : red;
+}
+.start {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.toggle {
+    display : none !important ;
+}
+#game2 {
+    background-image:  linear-gradient(to bottom, #091fc7e7, #324eb3ed), url('./images.jfif');
+    height: 100vh;
+}
+.btnLevel {
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border : none;
+    background-color:inherit;
+    color : #F96C02;
+    text-shadow: 2px 2px;
+}
+.collection-levels {
+    display:flex;
+    gap: 30px;
+}
+.star {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+}
+.btnLevels {
+    border: none;
+    font-size: 50px;
+    background-color: #112C73;
+    border-radius: 25px;
+    padding:30px 60px;
+    color : #F96C02;
+    font-style: italic;
+    font-family: fantasy ;
+    box-shadow: 2px 2px 1px lightblue inset;
+    text-shadow: 2px 2px;
+}
+#game3 {
+    background-image:  linear-gradient(to bottom, #091fc7ea,lightblue, #324eb3c4 ), url('./images.jfif');
+    height: 100vh;
+    position: relative;
+}
+.p {
+    color:#F96C02;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-style: italic;
+    font-weight: bolder;
+}
+.input {
+    padding  : 8px;
+    color: #F96C02;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+.input:focus {
+    background-color: #f6e47269;
+}
+.pTimer {
+   margin-top: 0;
+   color :#FFFFFF;
+   font-size: 25px;
+   background-color: blueviolet;
+   margin-bottom: 0;
+   width: 150px;
+   text-align: center;  
+}
+.reset {
+font-size: 60px;
+position: absolute;
+left : auto;
+bottom: 100px;
+border-radius: 15%; 
+border : none;
+background-color: inherit;
+color: chartreuse;
+font-style: italic;
+font-family: fantasy ;
+font-size: 40px;
+animation-name : example;
+animation-duration : 5s;
+animation-iteration-count : infinite;
+background-color: rgba(239, 250, 215, 0.355);
+}
+@keyframes example {
+    from {
+        color: rgb(110, 213, 7);
+      }
+      to {
+        color: #112C73;
+      }
+}
+#finalResult {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.win {
+    position: absolute;
+    bottom :200px;
+    right : auto;
+    font-size: 50px;
+    border: 1px solid yellow;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(195, 175, 214, 0.874);
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.jooOn {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
